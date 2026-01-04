@@ -1,0 +1,13 @@
+{
+  "name": "simple-auth",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "db:up": "docker compose up -d"
+  },
+  "dependencies": {
+    "hono": "^4.11.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
