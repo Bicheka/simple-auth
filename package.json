@@ -2,7 +2,9 @@
   "name": "simple-auth",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
-    "db:up": "docker compose up -d"
+    "db:up": "docker compose up -d",
+    "db:generate:migration": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "drizzle-orm": "^0.45.1",
