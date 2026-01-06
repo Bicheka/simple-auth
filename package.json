@@ -10,7 +10,8 @@
   "dependencies": {
     "better-auth": "^1.4.10",
     "drizzle-orm": "^0.45.1",
-    "hono": "^4.11.3"
+    "hono": "^4.11.3",
+    "mailgun.js": "^12.5.0"
   },
   "devDependencies": {
     "@types/bun": "latest",
