@@ -1,15 +1,51 @@
 # Simple Auth
-This is a template that simplifies auth by having a working auth service in a couple of minutes
 
-### Stack used
-- Bun
-- Hono
-- Better-Auth
-- Drizzle
-- Mailgun
-- Postgres
+**Simple Auth** is a minimal authentication **template** built using **Better Auth**, **Bun**, **Hono**, **Drizzle**, and **PostgreSQL**.
 
-Note that as a template you may modify this dependencies as needed
+It is meant to serve as a **starting point** for projects that need authentication without having to wire everything from scratch.  
+You are expected to modify, extend, or remove parts of this template to fit your own needs.
 
-### Migrations 
-To run generate and run migrations refer to [drizzle migrations](https://orm.drizzle.team/docs/kit-overview)
+---
+
+## What This Is
+
+- A working authentication setup
+- A reference implementation using Better Auth
+- A base you can copy, fork, or adapt
+
+## What This Is Not
+
+- A complete, opinionated auth solution
+- A drop-in SaaS replacement
+- A one-size-fits-all system
+
+---
+
+## Stack Used
+
+- **Runtime:** Bun
+- **HTTP Framework:** Hono
+- **Authentication:** Better Auth
+- **ORM:** Drizzle
+- **Database:** PostgreSQL
+- **Email:** Mailgun
+
+> Since this is a template, you are free to replace any dependency or change the architecture.
+
+---
+
+## Setup
+
+### 1. Prerequisites
+
+- [Bun](https://bun.com/)
+- PostgreSQL  
+  - Either installed locally
+  - Or via Docker / Docker Compose
+
+---
+
+### 2. Install Dependencies
+
+```bash
+bun install
